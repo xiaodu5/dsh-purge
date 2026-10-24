@@ -1,0 +1,744 @@
+{
+  "aiBase": "D:\\Program Files\\ai\\dsh\\DSH Desktop\\resources\\app\\node_modules\\@deepseek-ai",
+  "at": "2026-10-24T16:26:11.327Z",
+  "rows": [
+    {
+      "id": 1,
+      "name": "WORKSPACE_CONTEXT_INTRO",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 2,
+      "name": "REPLACEMENT_WORKSPACE_CONTEXT_INTRO",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 3,
+      "name": "SCOPE_INTRO",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 4,
+      "name": "SYSTEM_PROMPT_PERSONA",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 43,
+      "name": "WEB_PRESET_IDENTITY_STRIP",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": true
+    },
+    {
+      "id": 76,
+      "name": "PRESET_UNRESTRICTED_IDENTITY_STRIP",
+      "layer": "提示词",
+      "applies": true,
+      "status": "na",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 70,
+      "name": "PRESET_SHELL_NETWORK",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": true
+    },
+    {
+      "id": 73,
+      "name": "PRESET_BASH_MIRROR_LINE",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 71,
+      "name": "LIANGSHEN_IDENTITY_LINE",
+      "layer": "提示词",
+      "applies": true,
+      "status": "missing_file",
+      "optional": false,
+      "strict": true
+    },
+    {
+      "id": 5,
+      "name": "APPROVAL_NEVER_SENTENCE",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 6,
+      "name": "SANDBOX_DENY_FILE_WRITE",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 7,
+      "name": "SANDBOX_MODE_DEFAULT",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 8,
+      "name": "APPROVAL_POLICY_DEFAULT",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 9,
+      "name": "APPROVAL_AUTO_GRANT",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 10,
+      "name": "APPROVAL_CONFIG_DEFAULT_NEVER",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 11,
+      "name": "APPROVAL_NEVER_SENTENCE_BYPASS",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 12,
+      "name": "APPROVAL_ASK_SENTENCE_BYPASS",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 13,
+      "name": "ESCALATION_WIDENING_EXEMPT",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 14,
+      "name": "ESCALATION_GRANT_UNCONDITIONAL",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 15,
+      "name": "SANDBOX_CONFINE_PASSTHROUGH",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 16,
+      "name": "FS_FENCE_DISABLED",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 17,
+      "name": "FS_OBSERVATION_INTENT_FREE",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 18,
+      "name": "REPEAT_TOOL_REMINDER_DISABLED",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 19,
+      "name": "TOOL_RESULT_PRUNER_DISABLED",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 21,
+      "name": "BASH_TIMEOUT_RESTORE",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 22,
+      "name": "READ_CAPS_RAISED",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 23,
+      "name": "SUBAGENT_MAXDEPTH_RAISED",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 24,
+      "name": "PRESET_FETCH_ENABLED",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 25,
+      "name": "HARNESS_IDENTITY_STRIP",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 26,
+      "name": "MINIMAL_PERSONA_PURGE",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 80,
+      "name": "MINIMAL_OFFICIAL_TOOLSET",
+      "layer": "工具",
+      "applies": true,
+      "status": "skipped",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 28,
+      "name": "LIANGSHEN_PHASE1_KEEP_INJECT",
+      "layer": "提示词",
+      "applies": true,
+      "status": "na",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 32,
+      "name": "WEB_SURFACE_IDENTITY_NEUTRAL",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 29,
+      "name": "TOOL_WEB_UNTRUSTED_NEUTRAL",
+      "layer": "工具",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 30,
+      "name": "HOOKS_CLAUDE_DENY_ALLOW",
+      "layer": "工具",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 31,
+      "name": "HOOKS_CODEX_DENY_ALLOW",
+      "layer": "工具",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 33,
+      "name": "TOOL_SHELL_DENIAL_PROMPT",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 34,
+      "name": "SANDBOX_HINT_NEUTRAL",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 35,
+      "name": "ESCALATION_NEVER_REJECT",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 36,
+      "name": "TOOL_FS_ESCALATION_SCHEMA",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 37,
+      "name": "SUBAGENT_SCOPE_LOCK_NEUTRAL",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 38,
+      "name": "PERSONA_TEXT_PREFIX_ALIAS",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 39,
+      "name": "SESSION_V0_PLUGIN_SUMMARY_ALIAS",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 40,
+      "name": "COMPLETE_PROMPT_KEEP_INJECT",
+      "layer": "0.1.5 兼容",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 42,
+      "name": "SETTINGS_LEGACY_API",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 45,
+      "name": "OFFICIAL_DESKTOP_UPDATE_HANDOFF",
+      "layer": "代码",
+      "applies": true,
+      "status": "na",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 46,
+      "name": "OFFICIAL_DESKTOP_UPDATE_ASCII",
+      "layer": "代码",
+      "applies": true,
+      "status": "na",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 47,
+      "name": "ANTHROPIC_OAUTH_NO_CLAUDE_IDENTITY",
+      "layer": "0.2.0 兼容",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 48,
+      "name": "TOOL_SHELL_DELETE_MOVE_NEUTRAL",
+      "layer": "工具",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 49,
+      "name": "ANTHROPIC_OAUTH_CLI_NEUTRAL",
+      "layer": "0.2.0 兼容",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 50,
+      "name": "SESSION_REFERENCE_FRAMING_NEUTRAL",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 51,
+      "name": "FRESH_SESSION_FULL_ACCESS",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 52,
+      "name": "SESSION_LOG_UPLOAD_DEFAULT_OFF",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 53,
+      "name": "WEB_SURFACE_PROHIBITION",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 54,
+      "name": "DELIVERABLE_DO_NOT",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 55,
+      "name": "SYSTEM_PROMPT_REPLACE_HEAD",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 74,
+      "name": "ASSEMBLE_BEFORE_PRESTEP",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 66,
+      "name": "SYSTEM_PROMPT_RENDER_GUARD",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 83,
+      "name": "DESKTOP_HOST_CLOSE_NO_FATAL",
+      "layer": "代码",
+      "applies": true,
+      "status": "missing_file",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 84,
+      "name": "DESKTOP_HOST_CLOSE_CODE0_NO_FAIL",
+      "layer": "代码",
+      "applies": true,
+      "status": "na",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 67,
+      "name": "AGENT_LOOP_MESSAGES_GUARD",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 68,
+      "name": "SYSTEM_NODES_CONTENT_GUARD",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": false,
+      "strict": false
+    },
+    {
+      "id": 69,
+      "name": "MODEL_STREAM_RELEASE",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 72,
+      "name": "MESSAGES_SYSTEM_CURRENT",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 56,
+      "name": "REWIND_HIDE_CUT_ONLY",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 77,
+      "name": "REWIND_DROP_SENT_ON_APPEND",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 75,
+      "name": "REWIND_RESET_TODOS",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 57,
+      "name": "DEEPSEEK_SYSTEM_ROLE",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 58,
+      "name": "REWIND_SKIP_DERIVE",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 59,
+      "name": "OFFICIAL_AUTO_REVIEW_PASSTHROUGH",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 60,
+      "name": "OFFICIAL_RUN_CODE_APPROVAL_NEUTRAL",
+      "layer": "工具",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 61,
+      "name": "OFFICIAL_SANDBOX_POLICY_NEUTRAL",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 62,
+      "name": "OFFICIAL_TOOL_ASK_FAILOPEN",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 63,
+      "name": "OFFICIAL_PLAN_MODE_NEUTRAL",
+      "layer": "提示词",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 64,
+      "name": "HOOKS_STOP_STEER_NEUTRAL",
+      "layer": "工具",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 65,
+      "name": "HOOKS_PRESTEP_REJECT_NEUTRAL",
+      "layer": "工具",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 78,
+      "name": "OVERLAY_RESTORE_FROM_BAK",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 82,
+      "name": "DESKTOP_SHELL_PROFILE_FALLBACK",
+      "layer": "代码",
+      "applies": true,
+      "status": "na",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 85,
+      "name": "SESSION_PROMPT_ALWAYS_FOLLOWUP",
+      "layer": "代码",
+      "applies": true,
+      "status": "skipped",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 86,
+      "name": "SESSION_STEER_ALWAYS_FOLLOWUP",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 87,
+      "name": "HUNG_PROMPT_LF_NEEDLE",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    },
+    {
+      "id": 88,
+      "name": "HUNG_PROMPT_STRICT_NEEDLE",
+      "layer": "代码",
+      "applies": true,
+      "status": "applied",
+      "optional": true,
+      "strict": false
+    }
+  ]
+}
