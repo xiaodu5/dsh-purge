@@ -58,5 +58,7 @@ jobs:
             gh "${args[@]}"
           fi
           test -s "$zip"
-          gh release upload "$tag" "$zip" --clobber
+          # 供应链：发布产物必须带哈希清单，客户端可用 DSH_PURGE_EXPECT_SHA 钉死（lib/update.js）。
+          sha256sum "$zip" > SHA256SUMS.txt
+          gh release upload "$tag" "$zip" SHA256SUMS.txt --clobber
           echo "published https://github.com/YuJunZhiXue/dsh-purge/releases/tag/${tag}"
